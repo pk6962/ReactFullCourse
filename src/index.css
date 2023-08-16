@@ -11,17 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.container{
+.cardsMainContainer{
   background-color: cyan;
   padding: 10px;
-  margin: 10px;
   text-align: center;
   border-radius: 16px;
-  width: 30%;
-  
-}
-.cardsMainContainer{
+  height: 100vh;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: whitesmoke;
+  font-family: roboto;
+  border-radius:12px;
+  border: 0px;
+  font-weight: 800;
+}
+h1{
+  text-align: center;
 }
