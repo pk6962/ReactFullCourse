@@ -1,9 +1,9 @@
 import React from 'react'
-import Index from './useState/useStateExTodos'
+import Final from './useEffect/useEffect1'
 const App = () => {
   return (
     <div className='App'>
-      <Index /> 
+      <Final /> 
     </div>
   )
 }
