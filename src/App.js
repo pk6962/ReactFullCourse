@@ -1,5 +1,5 @@
 import React from 'react'
-import Final from './useEffect/useEffect1'
+import Final from './useEffect/useEffectEx2'
 const App = () => {
   return (
     <div className='App'>
