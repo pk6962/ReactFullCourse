@@ -61,7 +61,7 @@ const Final = () => {
                   <img src={strDrinkThumb} alt={strDrink} />
                 </div>
                 <div className="text">
- <h3>{strDrink}</h3>
+                    <h3>{strDrink}</h3>
                 </div>
               </li>
             );

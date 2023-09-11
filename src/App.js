@@ -1,11 +1,12 @@
 import React from 'react'
-import Final from './useEffect/useEffectEx2'
+import UseReduceAdvance from './useReducer/useReducer-Advanced.js';
 const App = () => {
   return (
-    <div className='App'>
-      <Final /> 
+    <div>
+      <h1> UseReduceAdvance... </h1>
+      <UseReduceAdvance />
     </div>
   )
 }
 
-export default App
+export default App ;
