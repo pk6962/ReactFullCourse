@@ -12,7 +12,7 @@ function Users () {
                 usersData.map((eachItem) => {
                     const { id, name, email} = eachItem ;
                     return (
-                        <Link to={`users/${id}`} key={id} >
+                        <Link to={`/users/${id}`} key={id} >
                             <article className="card" >
                                 <h3> {name}</h3>
                                 <h5> {email} </h5>
