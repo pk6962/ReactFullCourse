@@ -37,6 +37,7 @@ const Final = () => {
 
   return (
     <div>
+      <h1> Mocktail <br/> Drinks </h1>
       <form>
         <input
           type="text"

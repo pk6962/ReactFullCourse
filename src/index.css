@@ -6,14 +6,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* .cardsMainContainer{
+.cardsMainContainer{
   background-color: rgb(172, 202, 202);
   padding: 10px;
   text-align: center;
@@ -23,16 +22,15 @@ code {
   flex-direction: column;
   justify-content: center;
 }
-/* button {
+button {
   padding: 10px;
   margin: 10px;
-  background-color: whitesmoke;
-  font-family: roboto;
+  background-color: rgb(236, 173, 173);
   border-radius:12px;
-  border: 0px;
+  border: 2px;
   font-weight: 800;
-} */
-/
+  border-width: aqua;
+} 
 .App{
   text-align: center;
 }
@@ -54,4 +52,55 @@ gap: 1rem;
   grid-template-columns:1fr 1fr 1fr ;
   gap: 2.5rem;
 }
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: cyan;
+}
+nav a {
+  margin-left: 15px;
+}
+nav a.active {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  color: yellow;
+}
+
+p {
+  text-align: center;
+}
+span {
+  color: blueviolet;
+}
+div{
+  text-align: center;
+  justify-content: center;
+
+}
+center {
+  text-align: center;
+  justify-content: center;
+}
+input{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0px 0px 0px 0px;
+}
+.card-container {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card {
+  background-color: rgb(255, 17, 0);
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 100px;
 }
