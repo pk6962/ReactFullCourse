@@ -9,7 +9,7 @@ function Navbar () {
             <NavLink to="/contact"> Contact</NavLink>
             <NavLink to="/projects"> Projects </NavLink>
             <NavLink to="/users"> Users </NavLink>
-
+            <NavLink to="/login"> Login </NavLink>
         </nav>
     </div>
   )
